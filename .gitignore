@@ -1,0 +1,5 @@
+# Ignore the .streamlit and .venv directories
+/.streamlit
+/.venv
+/utils/__pycache__
+*.pyc

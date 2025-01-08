@@ -143,6 +143,8 @@ if st.button("Ejecutar búsqueda") and uploaded_file and selected_column:
             file_name="output_with_results.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
+        
 
     except Exception as e:
         st.error(f"Ocurrió un error: {e}")
+    

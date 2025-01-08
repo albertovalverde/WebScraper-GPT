@@ -45,7 +45,7 @@ headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 def make_request(url):
     try:
-        response = requests.get(url, headers=headers, timeout=10, verify=True)
+        response = requests.get(url, headers=headers, timeout=15, verify=True)
         response.raise_for_status()
         return response
     except requests.exceptions.RequestException as e:
